@@ -1,0 +1,28 @@
+h1 {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0%, auto;
+}
+
+.main-page {
+    color: rgb(24, 0, 240);
+    background-color: red;
+
+}
+
+.lists {
+    color: slategray;
+    background-color: hsl(35, 83%, 57%);
+    
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
