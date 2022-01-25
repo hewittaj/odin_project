@@ -1,3 +1,4 @@
+// Function takes a string and repeats it a given amount based on argument
 const repeatString = function(string, amount) {
     // Variable to hold the final string
     let finalString = '';
