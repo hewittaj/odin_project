@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="script.js" defer></script>
-        <title>DOM Manipulation and Events</title>
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
     </head>
 
     <body>
-        <h1>THE TITLE OF YOUR WEBPAGE</h1>
-            <div id="container">
-                
-            </div>
+        <h1>Webpage Title!</h1>
+        <div id="container">
+            <!-- Method one event
+            <button onclick="alert('Hello World')">Click Me</button> -->
+
+            <!-- Method two event look in .js for peer code
+            <button id="btn">Click Me</button> -->
+
+            <!-- Method three event that can have multiple onclick property for DOM-->
+            <button id="btn">Click Me Too</button>
+
+            <!--Attaching listeners to multiple nodes-->
+            <button id="1">Click Me</button>
+            <button id="2">Click Me</button>
+            <button id="3">Click Me</button>
+        </div>
     </body>
 </html>
