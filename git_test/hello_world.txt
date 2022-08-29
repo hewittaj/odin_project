@@ -1,1 +1,0 @@
-Here is some test text to ensure git is working.
